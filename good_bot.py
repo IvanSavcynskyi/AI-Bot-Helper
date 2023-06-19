@@ -4,10 +4,10 @@ from telebot import types
 import requests
 import base64
 
-KEY = "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"
+KEY = "YourAPIkey"
 openai.api_key = KEY
 
-bot = telebot.TeleBot("6224897670:AAFA-S-mBRS54P7qQVPBH8xwVGqjJn4HB6Q", parse_mode=None)
+bot = telebot.TeleBot("BotToken", parse_mode=None)
 
 def get_action():
 
